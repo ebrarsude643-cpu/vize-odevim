@@ -5,7 +5,7 @@ public class KareVeKup {
         Scanner input = new Scanner(System.in);
 
         // Kullanıcıdan sayı alma
-        System.out.print("Bir sayı girin: ");
+        System.out.print("Bir sayi girin: ");
         int sayi = input.nextInt();
 
         // Kare ve küp hesaplama
@@ -13,7 +13,7 @@ public class KareVeKup {
         int kup = sayi * sayi * sayi;
 
         // Sonuçları gösterme
-        System.out.println("Sayının karesi: " + kare);
-        System.out.println("Sayının küpü: " + kup);
+        System.out.println("Sayinin karesi: " + kare);
+        System.out.println("Sayinin kupu: " + kup);
     }
 }
